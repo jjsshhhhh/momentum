@@ -1,0 +1,70 @@
+body {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#clock {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 100px;
+  font-weight: bold;
+}
+
+#greeting {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#quote {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+}
+
+#quote span {
+  display: block;
+}
+
+#login-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 50%);
+}
+
+#todo-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 500%);
+}
+
+#todo-list {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 150px);
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 80%;
+}
